@@ -1,7 +1,7 @@
-import './index.scss';
-import {MDCRipple} from '@material/ripple';
-
-const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
-document.getElementById("hello-world").textContent = "Hello world!";
-
-console.log('FOO BAR #2');
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./app.js";
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+);
